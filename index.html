@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Complements/stylesheet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <title>CalcIMC</title>
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora IMC</h1>
+        </header>
+        <main>
+            <section id="FormIMC">
+                <form>
+                    <h3>Peso</h3>
+                    <input id="InpPeso" type="number">
+        
+                    <h3>Altura</h3>
+                    <input id="InpAltura" type="number">
+    
+                    <h3>Data</h3>
+                    <input id="InputData" placeholder="Data">
+                </form>
+    
+                <button id="Calcular">Calcular</button>
+            </section>
+
+            <section id="Resultado">
+                <h2>Seus resultados:</h2>
+                <p id="ResultadoP"></p>
+            </section>
+
+            <section>
+                <h2>Mais informações sobre o IMC</h2>
+
+                <a id="Link" href="sobreIMC.html">Clique aqui!</a>
+            </section>
+        </main>
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script src="Complements/script.js"></script>
+</html>
